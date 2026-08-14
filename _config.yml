@@ -23,7 +23,7 @@ repository               : "farrahi/farrahi.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "image_Uppsala.jpg"
   name             : "Vahid Farrahi"
   pronouns         : # example: "she/her"  
   bio              : "Assistant professor, TU Dortmund University"
