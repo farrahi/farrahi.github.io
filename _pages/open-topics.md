@@ -37,6 +37,10 @@ We will investigate the potential of tabular foundation models for health predic
 
 </p>
 
+<ul>
+  <li><a href="https://www.nature.com/articles/s41586-024-08328-6">Nature</a></li>
+  <li><a href="https://arxiv.org/abs/2405.01147">arXiv</a></li>
+</ul>
 
 
 <p>
@@ -47,10 +51,6 @@ Prompt engineering · Zero-shot learning · Few-shot learning · Benchmarking
 <h4>Relevant literature </h4>
 
 
-<ul>
-  <li><a href="https://www.nature.com/articles/s41586-024-08328-6">Nature</a></li>
-  <li><a href="https://arxiv.org/abs/2405.01147">arXiv</a></li>
-</ul>
 
 </div>
 
