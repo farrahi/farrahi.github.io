@@ -1,7 +1,7 @@
 ---
 title: "In-context learning for tabular data using tabular foundation models"
 type: "MSc thesis, internship"
-permalink: /teaching/Tab_found_health
+permalink: /teaching/tab-found-health/
 venue: "TU Dortmund"
 ---
 
