@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Open Topics"
 permalink: /open-topics/
 author_profile: true
 ---
