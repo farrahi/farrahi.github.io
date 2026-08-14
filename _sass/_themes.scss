@@ -1,6 +1,7 @@
-/* ==========================================================================
+ /* ==========================================================================
    SHARED THEME SETTINGS
    ========================================================================== */
+
 
 /* ==========================================================================
    TYPOGRAPHY
@@ -9,29 +10,63 @@
 /* Used to set the size for <em> */
 $doc-font-size              : 12;
 
-
-
 /* Paragraph indention */
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
-/* System typefaces */
+
+/* --------------------------------------------------------------------------
+   System typefaces
+   -------------------------------------------------------------------------- */
+
+/* Clean, modern font suitable for computer science / AI / data science */
+$sans-serif                 : "Inter",
+                              -apple-system,
+                              BlinkMacSystemFont,
+                              "Segoe UI",
+                              Roboto,
+                              Helvetica,
+                              Arial,
+                              sans-serif;
+
+/* Serif fallback */
 $serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
-/* Sans serif typefaces */
+/* Monospace font for code */
+$monospace                  : "SFMono-Regular",
+                              Consolas,
+                              "Liberation Mono",
+                              Menlo,
+                              monospace;
+
+
+/* --------------------------------------------------------------------------
+   Sans serif typefaces
+   -------------------------------------------------------------------------- */
+
 $sans-serif-narrow          : $sans-serif;
-$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
 
-/* Serif typefaces */
+$helvetica                  : Helvetica,
+                              "Helvetica Neue",
+                              Arial,
+                              sans-serif;
+
+
+/* --------------------------------------------------------------------------
+   Serif typefaces
+   -------------------------------------------------------------------------- */
+
 $georgia                    : Georgia, serif;
 $times                      : Times, serif;
 $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-/* Type scale */
+
+/* --------------------------------------------------------------------------
+   Type scale
+   -------------------------------------------------------------------------- */
+
 $type-size-1                : 2.2em;
 $type-size-2                : 1.7em;
 $type-size-3                : 1.4em;
@@ -42,12 +77,17 @@ $type-size-7                : 0.6875em;
 $type-size-8                : 0.625em;
 
 
+/* --------------------------------------------------------------------------
+   Global typography
+   -------------------------------------------------------------------------- */
+
 $global-font-family         : $sans-serif;
 $header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
+$caption-font-family        : $sans-serif;
+
 
 /* ==========================================================================
-   Breakpoints
+   BREAKPOINTS
    ========================================================================== */
 
 @include breakpoint-set("to ems", true);
@@ -58,8 +98,9 @@ $medium-wide                : 900px !default;
 $large                      : 925px !default;
 $x-large                    : 1280px !default;
 
+
 /* ==========================================================================
-   Grid
+   GRID
    ========================================================================== */
 
 $right-sidebar-width-narrow : auto;
@@ -77,6 +118,7 @@ $susy: (
     global-box-sizing: border-box,
 );
 
+
 /* ==========================================================================
    BRAND COLORS
    ========================================================================== */
@@ -84,24 +126,23 @@ $susy: (
 $behance-color              : #1769FF;
 $bluesky-color              : #1184fe;
 $dribbble-color             : #ea4c89;
-$facebook-color             : #3b5998;
+$facebook-color              : #3b5998;
 $flickr-color               : #ff0084;
 $foursquare-color           : #0072b1;
 $google-plus-color          : #dd4b39;
-$instagram-color            : #517fa4;
+$instagram-color             : #517fa4;
 $kaggle-color               : #20c0ff;
 $lastfm-color               : #d51007;
 $linkedin-color             : #007bb6;
 $mastodon-color             : #6364ff;
 $orcid-color                : #a6ce39;
-$pinterest-color            : #cb2027;
+$pinterest-color             : #cb2027;
 $rss-color                  : #fa9b39;
-$soundcloud-color           : #ff3300;
-$stackoverflow-color        : #fe7a15;
+$soundcloud-color            : #ff3300;
+$stackoverflow-color         : #fe7a15;
 $tumblr-color               : #32506d;
-$twitter-color              : #55acee;
-$vimeo-color                : #1ab7ea;
-$vine-color                 : #00bf8f;
-$youtube-color              : #bb0000;
-$xing-color                 : #006567;
-   
+$twitter-color               : #55acee;
+$vimeo-color                 : #1ab7ea;
+$vine-color                  : #00bf8f;
+$youtube-color               : #bb0000;
+$xing-color                  : #006567;
