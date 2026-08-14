@@ -1,148 +1,418 @@
- /* ==========================================================================
-   SHARED THEME SETTINGS
+/* ==========================================================================
+   MODERN AI / DATA SCIENCE THEME
    ========================================================================== */
 
+/* --------------------------------------------------------------------------
+   COLOR PALETTE
+   -------------------------------------------------------------------------- */
 
-/* ==========================================================================
+$ai-navy       : #0f172a;
+$ai-text       : #1e293b;
+$ai-muted      : #64748b;
+$ai-blue       : #2563eb;
+$ai-cyan       : #06b6d4;
+$ai-border     : #e2e8f0;
+$ai-background : #f8fafc;
+
+
+/* --------------------------------------------------------------------------
    TYPOGRAPHY
-   ========================================================================== */
+   -------------------------------------------------------------------------- */
 
-/* Used to set the size for <em> */
-$doc-font-size              : 12;
+$doc-font-size : 14;
 
-/* Paragraph indention */
-$paragraph-indent           : false; // true, false (default)
-$indent-var                 : 1.3em;
+$sans-serif :
+  "Inter",
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  Helvetica,
+  Arial,
+  sans-serif;
+
+$monospace :
+  "SFMono-Regular",
+  "SF Mono",
+  Consolas,
+  "Liberation Mono",
+  Menlo,
+  monospace;
+
+$global-font-family  : $sans-serif;
+$header-font-family  : $sans-serif;
+$caption-font-family : $sans-serif;
+
+$type-size-1 : 2.0em;
+$type-size-2 : 1.55em;
+$type-size-3 : 1.25em;
+$type-size-4 : 1.05em;
+$type-size-5 : 0.90em;
+$type-size-6 : 0.78em;
+$type-size-7 : 0.70em;
+$type-size-8 : 0.625em;
 
 
 /* --------------------------------------------------------------------------
-   System typefaces
+   GLOBAL
    -------------------------------------------------------------------------- */
 
-/* Clean, modern font suitable for computer science / AI / data science */
-$sans-serif                 : "Inter",
-                              -apple-system,
-                              BlinkMacSystemFont,
-                              "Segoe UI",
-                              Roboto,
-                              Helvetica,
-                              Arial,
-                              sans-serif;
+html {
+  scroll-behavior: smooth;
+}
 
-/* Serif fallback */
-$serif                      : Georgia, Times, serif;
-
-/* Monospace font for code */
-$monospace                  : "SFMono-Regular",
-                              Consolas,
-                              "Liberation Mono",
-                              Menlo,
-                              monospace;
+body {
+  background: $ai-background;
+  color: $ai-text;
+  font-family: $sans-serif;
+  font-size: 14px;
+  line-height: 1.65;
+}
 
 
 /* --------------------------------------------------------------------------
-   Sans serif typefaces
+   HEADINGS
    -------------------------------------------------------------------------- */
 
-$sans-serif-narrow          : $sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $sans-serif;
+  color: $ai-navy;
+  font-weight: 650;
+  letter-spacing: -0.025em;
+  line-height: 1.25;
+}
 
-$helvetica                  : Helvetica,
-                              "Helvetica Neue",
-                              Arial,
-                              sans-serif;
+h1 {
+  font-size: 2em;
+  letter-spacing: -0.035em;
+}
+
+h2 {
+  font-size: 1.45em;
+  margin-top: 2em;
+  padding-bottom: 0.35em;
+  border-bottom: 0;
+}
+
+h3 {
+  font-size: 1.15em;
+}
+
+h4 {
+  font-size: 1em;
+}
 
 
 /* --------------------------------------------------------------------------
-   Serif typefaces
+   LINKS
    -------------------------------------------------------------------------- */
 
-$georgia                    : Georgia, serif;
-$times                      : Times, serif;
-$bodoni                     : "Bodoni MT", serif;
-$calisto                    : "Calisto MT", serif;
-$garamond                   : Garamond, serif;
+a {
+  color: $ai-blue;
+  text-decoration: none;
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease;
+
+  &:hover {
+    color: $ai-cyan;
+  }
+}
 
 
 /* --------------------------------------------------------------------------
-   Type scale
+   MAIN CONTENT
    -------------------------------------------------------------------------- */
 
-$type-size-1                : 2.2em;
-$type-size-2                : 1.7em;
-$type-size-3                : 1.4em;
-$type-size-4                : 1.15em;
-$type-size-5                : 0.90em;
-$type-size-6                : 0.75em;
-$type-size-7                : 0.6875em;
-$type-size-8                : 0.625em;
+.page__content {
+  font-size: 0.95em;
+
+  p {
+    margin-bottom: 1.2em;
+  }
+
+  strong {
+    color: $ai-navy;
+    font-weight: 600;
+  }
+}
 
 
 /* --------------------------------------------------------------------------
-   Global typography
+   NAVIGATION
    -------------------------------------------------------------------------- */
 
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
-$caption-font-family        : $sans-serif;
+.masthead {
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom: 1px solid $ai-border;
+}
+
+.greedy-nav {
+  background: transparent;
+
+  a {
+    font-size: 0.82em;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: $ai-text;
+
+    &:hover {
+      color: $ai-blue;
+    }
+  }
+
+  .visible-links a:before {
+    background: $ai-blue;
+  }
+}
 
 
-/* ==========================================================================
-   BREAKPOINTS
-   ========================================================================== */
+/* --------------------------------------------------------------------------
+   SIDEBAR / AUTHOR PROFILE
+   -------------------------------------------------------------------------- */
 
-@include breakpoint-set("to ems", true);
+.author__avatar img {
+  border-radius: 12px;
+  border: 1px solid $ai-border;
+}
 
-$small                      : 600px !default;
-$medium                     : 768px !default;
-$medium-wide                : 900px !default;
-$large                      : 925px !default;
-$x-large                    : 1280px !default;
+.author__name {
+  color: $ai-navy;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+}
 
-
-/* ==========================================================================
-   GRID
-   ========================================================================== */
-
-$right-sidebar-width-narrow : auto;
-$right-sidebar-width        : auto;
-$right-sidebar-width-wide   : auto;
-
-$susy: (
-    columns: 12,
-    column-width: 120px,
-    gutters: 1/4,
-    math: fluid,
-    output: float,
-    gutter-position: after,
-    container: $large,
-    global-box-sizing: border-box,
-);
+.author__bio {
+  color: $ai-muted;
+  font-size: 0.88em;
+  line-height: 1.6;
+}
 
 
-/* ==========================================================================
-   BRAND COLORS
-   ========================================================================== */
+/* --------------------------------------------------------------------------
+   PAGE TITLE
+   -------------------------------------------------------------------------- */
 
-$behance-color              : #1769FF;
-$bluesky-color              : #1184fe;
-$dribbble-color             : #ea4c89;
-$facebook-color              : #3b5998;
-$flickr-color               : #ff0084;
-$foursquare-color           : #0072b1;
-$google-plus-color          : #dd4b39;
-$instagram-color             : #517fa4;
-$kaggle-color               : #20c0ff;
-$lastfm-color               : #d51007;
-$linkedin-color             : #007bb6;
-$mastodon-color             : #6364ff;
-$orcid-color                : #a6ce39;
-$pinterest-color             : #cb2027;
-$rss-color                  : #fa9b39;
-$soundcloud-color            : #ff3300;
-$stackoverflow-color         : #fe7a15;
-$tumblr-color               : #32506d;
-$twitter-color               : #55acee;
-$vimeo-color                 : #1ab7ea;
-$vine-color                  : #00bf8f;
-$youtube-color               : #bb0000;
-$xing-color                  : #006567;
+.page__title {
+  color: $ai-navy;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+
+/* --------------------------------------------------------------------------
+   META INFORMATION
+   -------------------------------------------------------------------------- */
+
+.page__meta,
+.archive__item-title + .page__meta {
+  color: $ai-muted;
+  font-size: 0.78em;
+  letter-spacing: 0.02em;
+}
+
+
+/* --------------------------------------------------------------------------
+   CODE / TECHNICAL ELEMENTS
+   -------------------------------------------------------------------------- */
+
+code,
+pre,
+kbd,
+samp {
+  font-family: $monospace;
+}
+
+code {
+  background: #f1f5f9;
+  border: 1px solid $ai-border;
+  border-radius: 5px;
+  padding: 0.12em 0.35em;
+  font-size: 0.85em;
+}
+
+pre {
+  background: #0f172a;
+  border-radius: 8px;
+  border: 1px solid #1e293b;
+}
+
+
+/* --------------------------------------------------------------------------
+   BLOCKQUOTES
+   -------------------------------------------------------------------------- */
+
+blockquote {
+  border-left: 3px solid $ai-blue;
+  color: $ai-muted;
+  padding-left: 1em;
+  font-style: normal;
+}
+
+
+/* --------------------------------------------------------------------------
+   TABLES
+   -------------------------------------------------------------------------- */
+
+table {
+  border: 1px solid $ai-border;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 0.9em;
+}
+
+thead {
+  background: #f1f5f9;
+}
+
+th {
+  color: $ai-navy;
+  font-weight: 600;
+}
+
+td,
+th {
+  border-color: $ai-border;
+}
+
+
+/* --------------------------------------------------------------------------
+   AI-STYLE CARDS
+   Use class="ai-card" in Markdown/HTML
+   -------------------------------------------------------------------------- */
+
+.ai-card {
+  background: #ffffff;
+  border: 1px solid $ai-border;
+  border-radius: 10px;
+  padding: 1.4rem 1.5rem;
+  margin: 1.5rem 0;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    border-color: rgba(37, 99, 235, 0.35);
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.06);
+  }
+
+  h2,
+  h3 {
+    margin-top: 0;
+  }
+}
+
+
+/* --------------------------------------------------------------------------
+   AI ACCENT
+   -------------------------------------------------------------------------- */
+
+.ai-accent {
+  width: 42px;
+  height: 3px;
+  margin: 0.7rem 0 1.4rem;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    $ai-blue,
+    $ai-cyan
+  );
+}
+
+
+/* --------------------------------------------------------------------------
+   SMALL TECHNICAL LABELS
+   -------------------------------------------------------------------------- */
+
+.ai-label {
+  display: inline-block;
+  font-family: $monospace;
+  font-size: 0.68em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $ai-blue;
+  margin-bottom: 0.5rem;
+}
+
+
+/* --------------------------------------------------------------------------
+   HORIZONTAL RULE
+   -------------------------------------------------------------------------- */
+
+hr {
+  border: 0;
+  border-top: 1px solid $ai-border;
+  margin: 2.5em 0;
+}
+
+
+/* --------------------------------------------------------------------------
+   BUTTONS
+   -------------------------------------------------------------------------- */
+
+.btn {
+  border-radius: 7px;
+  font-family: $sans-serif;
+  font-size: 0.82em;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition: all 0.2s ease;
+}
+
+.btn--primary {
+  background: $ai-blue;
+  color: #ffffff;
+
+  &:hover {
+    background: #1d4ed8;
+    color: #ffffff;
+    transform: translateY(-1px);
+  }
+}
+
+
+/* --------------------------------------------------------------------------
+   SELECTION
+   -------------------------------------------------------------------------- */
+
+::selection {
+  background: rgba(37, 99, 235, 0.15);
+  color: $ai-navy;
+}
+
+
+/* --------------------------------------------------------------------------
+   MOBILE
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+  body {
+    font-size: 13px;
+  }
+
+  h1 {
+    font-size: 1.7em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  .page__content {
+    font-size: 0.95em;
+  }
+
+  .ai-card {
+    padding: 1.1rem;
+  }
+}
