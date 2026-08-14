@@ -48,9 +48,6 @@ Machine learning · Tabular foundation models · In-context learning ·
 Prompt engineering · Zero-shot learning · Few-shot learning · Benchmarking
 </p>
 
-
-
-
 </div>
 
 
@@ -91,9 +88,17 @@ we will investigate (and compare) how effectively in-context learning with emerg
 
 </p>
 
+
+<h4>Relevant Literature</h4>
+<ul>
+  <li><a href="https://www.nature.com/articles/s41586-024-08328-6">https://www.nature.com/articles/s41586-024-08328-6</a></li>
+  <li><a href="https://arxiv.org/abs/2405.01147">https://arxiv.org/abs/2405.01147</a></li>
+  <li><a href="  https://dl.acm.org/doi/10.5555/3600270.3601883">https://dl.acm.org/doi/10.5555/3600270.3601883</a></li>
+
+</ul>
+
 <p>
-Machine learning · Tabular foundation models · In-context learning ·
-Prompt engineering · Zero-shot learning · Few-shot learning · Benchmarking
+ Tabular foundation models · In-context learning · Prompt engineering · LLMs 
 </p>
 
 </div>
