@@ -1,9 +1,8 @@
 ---
-
 title: "Open Topics"
 permalink: /open-topics/
 author_profile: true
---------------------
+---
 
 # Open Topics
 
