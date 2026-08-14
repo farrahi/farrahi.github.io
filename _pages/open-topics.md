@@ -69,7 +69,7 @@ Prompt engineering · Zero-shot learning · Few-shot learning · Benchmarking
 
 <div class="topic-box">
 
-<h2>Comparing In-context Learning Tabular Foundation Models</h2>
+<h2>Comparing LLMs and Tabular Foundation Models for In-Context Learning in Health</h2>
 
 <p class="topic-type">
 Suitable for MSc Thesis / Internship
