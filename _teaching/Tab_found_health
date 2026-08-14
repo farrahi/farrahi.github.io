@@ -11,5 +11,7 @@ venue: "TU Dortmund"
 Summary
 ======
 
-LLMs are now incureasingly one of the main tools in our everyday life. One of the very intestersting capablity of LLMs is in-context learning, that is geting them to do tasks
-At their core, one of the main making LLMs is foundation models. With success in their natural language. There has been a rapid develpment for tabular data
+Large Language Models (LLMs) are increasingly becoming important tools in everyday applications. One of their most interesting capabilities is in-context learning, which enables LLMs to perform new tasks by providing examples or instructions within the input, without requiring explicit model retraining.
+At the core of modern LLM development are foundation models, which have demonstrated remarkable success in natural language processing. 
+More recently, this progress has expanded beyond text, with increasing research exploring the use of foundation models and LLMs for tabular data. 
+This MSc thesis will investigate the capabilities of LLMs for learning from and reasoning about tabular data, with a particular focus on in-context learning and its potential applications in data analysis and prediction.
