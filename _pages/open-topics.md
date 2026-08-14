@@ -44,7 +44,7 @@ Machine learning · Tabular foundation models · In-context learning ·
 Prompt engineering · Zero-shot learning · Few-shot learning · Benchmarking
 </p>
 
-# Relevant Literature
+<h4>Relevant literature </h4>
 
 - [Nature: Tabular foundation models](https://www.nature.com/articles/s41586-024-08328-6)
 - [arXiv: Tabular foundation models](https://arxiv.org/abs/2405.01147)
