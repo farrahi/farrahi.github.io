@@ -46,8 +46,11 @@ Prompt engineering · Zero-shot learning · Few-shot learning · Benchmarking
 
 <h4>Relevant literature </h4>
 
-- [Nature: Tabular foundation models](https://www.nature.com/articles/s41586-024-08328-6)
-- [arXiv: Tabular foundation models](https://arxiv.org/abs/2405.01147)
+
+<ul>
+  <li><a href="https://www.nature.com/articles/s41586-024-08328-6">Nature</a></li>
+  <li><a href="https://arxiv.org/abs/2405.01147">arXiv</a></li>
+</ul>
 
 </div>
 
