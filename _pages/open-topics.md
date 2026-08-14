@@ -12,7 +12,7 @@ I am currently offering several topics for MSc theses and internships - all in t
 <h2>In-context Learning for Health Prediction Using Tabular Foundation Models</h2>
 
 <p class="topic-type">
-<strong>MSc Thesis / Internship</strong>
+Suitable for MSc Thesis / Internship
 </p>
 
 <p>
