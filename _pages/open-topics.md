@@ -10,7 +10,7 @@ I am currently offering several topics for MSc theses and internships in the are
 ## In-context learning for tabular data using tabular foundation models
 
 **Type:** This topic is suitable for MSc thesis / Internship
-**Area:** Machine Learning, Foundation Models, Tabular Data
+**Area:** Machine Learning, Data Science, Foundation Models, Tabular Data
 
 Large Language Models (LLMs) have demonstrated an impressive ability to perform new tasks from examples provided directly in the input, a capability known as **in-context learning**. More recently, foundation models specifically designed for tabular data have emerged.
 
