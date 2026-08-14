@@ -31,3 +31,62 @@ If you are interested in working with us, I would be very happy to hear from you
 If you are looking for an MSc thesis topic, internship, or research visit, please visit the Open Topics page. I keep this page regularly updated with available opportunities.
 
 If any of the topics interest you, please feel free to get in touch. I would be happy to have a short chat and discuss potential opportunities for collaboration.
+
+
+
+
+
+
+
+
+
+<div class="research-collage">
+
+  <div class="collage-track">
+
+    <div class="collage-slide active">
+      <img src="/images/landing/research1.jpg" alt="Data analytics in sport science">
+    </div>
+
+    <div class="collage-slide">
+      <img src="/images/landing/research2.jpg" alt="Research">
+    </div>
+
+    <div class="collage-slide">
+      <img src="/images/landing/research3.jpg" alt="Research">
+    </div>
+
+    <div class="collage-slide">
+      <img src="/images/landing/research4.jpg" alt="Research">
+    </div>
+
+    <div class="collage-slide">
+      <img src="/images/landing/research5.jpg" alt="Research">
+    </div>
+
+    <div class="collage-slide">
+      <img src="/images/landing/research6.jpg" alt="Research">
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const slides = document.querySelectorAll(".collage-slide");
+  let current = 0;
+
+  setInterval(function () {
+
+    slides[current].classList.remove("active");
+
+    current = (current + 1) % slides.length;
+
+    slides[current].classList.add("active");
+
+  }, 3500);
+
+});
+</script>
