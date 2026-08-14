@@ -37,18 +37,17 @@ We will investigate the potential of tabular foundation models for health predic
 
 </p>
 
+<h4>Relevant Literature</h4>
 <ul>
-  <li><a href="https://www.nature.com/articles/s41586-024-08328-6">Nature</a></li>
-  <li><a href="https://arxiv.org/abs/2405.01147">arXiv</a></li>
+  <li><a href="https://www.nature.com/articles/s41586-024-08328-6">https://www.nature.com/articles/s41586-024-08328-6</a></li>
+  <li><a href="https://arxiv.org/abs/2405.01147">https://arxiv.org/abs/2405.01147</a></li>
 </ul>
-
 
 <p>
 Machine learning · Tabular foundation models · In-context learning ·
 Prompt engineering · Zero-shot learning · Few-shot learning · Benchmarking
 </p>
 
-<h4>Relevant literature </h4>
 
 
 
