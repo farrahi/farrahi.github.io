@@ -1,5 +1,5 @@
 ---
-title: "Open Topics"
+title: "Open Topics [MSc thesis, Internship, BSc thesis]"
 permalink: /open-topics/
 author_profile: true
 ---
