@@ -66,8 +66,10 @@ We will investigate the potential of tabular foundation models for health predic
 
 Suitable for MSc Thesis / Internship
 
+<p>
 <strong>Areas:</strong>
 Machine Learning · Data Science · Foundation Models · Tabular Data · Tabular foundation models · In-context learning · Prompt engineering · LLMs 
+</p>
 
 
 
