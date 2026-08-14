@@ -20,9 +20,9 @@ Suitable for MSc Thesis / Internship
 
 <p>
 <strong>Areas:</strong>
-Machine Learning · Data Science · Foundation Models · Tabular Data
+Machine learning · Tabular foundation models · In-context learning ·
+Prompt engineering · Zero-shot learning · Few-shot learning · Benchmarking
 </p>
-
 
 <h3>Summary</h3>
 
@@ -42,10 +42,7 @@ We will investigate the potential of tabular foundation models for health predic
   <li><a href="https://arxiv.org/abs/2405.01147">https://arxiv.org/abs/2405.01147</a></li>
 </ul>
 
-<p>
-Machine learning · Tabular foundation models · In-context learning ·
-Prompt engineering · Zero-shot learning · Few-shot learning · Benchmarking
-</p>
+
 
 </div>
 
@@ -70,7 +67,8 @@ Prompt engineering · Zero-shot learning · Few-shot learning · Benchmarking
 Suitable for MSc Thesis / Internship
 
 <strong>Areas:</strong>
-Machine Learning · Data Science · Foundation Models · Tabular Data · Large language models
+Machine Learning · Data Science · Foundation Models · Tabular Data · Tabular foundation models · In-context learning · Prompt engineering · LLMs 
+
 
 
 <h3>Summary</h3>
@@ -92,7 +90,6 @@ we will investigate (and compare) how effectively in-context learning with emerg
 </ul>
 
 <p>
- Tabular foundation models · In-context learning · Prompt engineering · LLMs 
 </p>
 
 </div>
