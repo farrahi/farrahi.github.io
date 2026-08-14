@@ -11,17 +11,13 @@ Please note that all topics can be tailored to mutually agreed-upon interests.
 
 
 <div class="topic-box">
-<p class="topic-type">
   
-</p>
 
-<p >
 <hr>
 
 <h2>In-context Learning for Health Prediction Using Tabular Foundation Models</h2>
 
 Suitable for MSc Thesis / Internship
-</p>
 
 <p>
 <strong>Areas:</strong>
