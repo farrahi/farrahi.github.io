@@ -16,6 +16,7 @@ Please note that all topics can be tailored to mutually agreed-upon interests.
 </p>
 
 <p >
+<hr>
 
 <h2>In-context Learning for Health Prediction Using Tabular Foundation Models</h2>
 
@@ -27,7 +28,6 @@ Suitable for MSc Thesis / Internship
 Machine Learning · Data Science · Foundation Models · Tabular Data
 </p>
 
-<hr>
 
 <h3>Summary</h3>
 
