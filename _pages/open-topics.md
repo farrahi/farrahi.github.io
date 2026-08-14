@@ -65,19 +65,15 @@ Prompt engineering · Zero-shot learning · Few-shot learning · Benchmarking
 
 
 <div class="topic-box">
+<hr>
 
 <h2>Comparing LLMs and Tabular Foundation Models for In-Context Learning in Health</h2>
 
-<p class="topic-type">
 Suitable for MSc Thesis / Internship
-</p>
 
-<p>
 <strong>Areas:</strong>
 Machine Learning · Data Science · Foundation Models · Tabular Data · Large language models
-</p>
 
-<hr>
 
 <h3>Summary</h3>
 
