@@ -22,31 +22,19 @@ Machine Learning · Data Science · Foundation Models · Tabular Data
 
 <hr>
 
-<h3>Overview</h3>
+<h3>Summary</h3>
 
 <p>
-Large Language Models (LLMs) have demonstrated an impressive ability to perform
-new tasks from examples provided directly in the input, a capability known as
-<strong>in-context learning</strong>. More recently, foundation models specifically
-designed for tabular data have emerged.
+
+Large Language Models (LLMs) are increasingly becoming important tools in everyday applications. One of their most interesting capabilities is in-context learning, which enables them to perform new tasks by providing examples or instructions within the input, without requiring explicit model retraining.
+
+At the core of modern LLM development are foundation models, which have demonstrated remarkable success in natural language processing. More recently, this progress has expanded beyond text, with increasing research exploring the use of foundation models and LLMs for tabular data.
+
+This MSc thesis will investigate the capabilities of LLMs for learning from and reasoning about tabular data, with a particular focus on in-context learning and its potential applications in data analysis and prediction.
+
 </p>
 
-<p>
-This project will investigate how effectively <strong>tabular foundation models</strong>
-can perform prediction and classification tasks using in-context learning.
-</p>
 
-<h3>Research Questions</h3>
-
-<ul>
-  <li>How well do tabular foundation models perform with <strong>zero-shot and few-shot learning</strong>?</li>
-  <li>How does the <strong>selection and number of examples</strong> affect performance?</li>
-  <li>How does in-context learning compare with <strong>conventional machine learning methods</strong>?</li>
-  <li>How robust are these approaches across <strong>different datasets</strong>?</li>
-  <li>Can <strong>domain-specific examples</strong> improve prediction performance?</li>
-</ul>
-
-<h3>Possible Methods</h3>
 
 <p>
 Machine learning · Tabular foundation models · In-context learning ·
