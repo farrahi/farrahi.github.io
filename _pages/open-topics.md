@@ -7,6 +7,9 @@ author_profile: true
 
 I am currently offering several topics for MSc theses and internships - all in the areas of machine learning, data science, sports, health, and digital technologies.
 
+Please note that all topics can be tailored to mutually agreed-upon interests.
+
+
 <div class="topic-box">
 
 <h2>In-context Learning for Health Prediction Using Tabular Foundation Models</h2>
