@@ -13,7 +13,6 @@ Please note that all topics can be tailored to mutually agreed-upon interests.
 <div class="topic-box">
   
 
-<hr>
 
 <h2>In-context Learning for Health Prediction Using Tabular Foundation Models</h2>
 
@@ -65,7 +64,6 @@ Prompt engineering · Zero-shot learning · Few-shot learning · Benchmarking
 
 
 <div class="topic-box">
-<hr>
 
 <h2>Comparing LLMs and Tabular Foundation Models for In-Context Learning in Health</h2>
 
