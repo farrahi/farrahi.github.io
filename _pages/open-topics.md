@@ -28,12 +28,12 @@ Machine Learning · Data Science · Foundation Models · Tabular Data
 <h3>Summary</h3>
 
 <p>
+Large Language Models (LLMs) are increasingly becoming important tools in a wide range of applications. One of their most interesting capabilities is in-context learning, which enables models to perform new tasks by providing instructions and/or examples directly within the input, without requiring explicit model retraining.
 
-Large Language Models (LLMs) are increasingly becoming important tools in everyday applications. One of their most interesting capabilities is in-context learning, which enables them to perform new tasks by providing examples or instructions within the input, without requiring explicit model retraining.
+The success of LLMs has also contributed to a broader development of foundation models beyond natural language processing. In particular, recent research has introduced foundation models specifically designed for tabular data, with promising results for prediction and classification tasks. Some early studies suggest that these models can achieve competitive, and in some settings superior, performance compared with conventional machine learning approaches, including tree-based methods that have traditionally dominated tabular data analysis.
 
-At the core of modern LLM development are foundation models, which have demonstrated remarkable success in natural language processing. More recently, this progress has expanded beyond text, with increasing research exploring the use of foundation models and LLMs for tabular data.
+We will investigate the potential of tabular foundation models for health prediction tasks. The project will evaluate how well these models perform across different health-related datasets and prediction problems and compare their performance with established machine learning baselines. Depending on the student's interests, the thesis may also explore zero-shot and few-shot learning, in-context learning, example selection, model prompting, and the robustness and generalisability of tabular foundation models across different health datasets.
 
-This MSc thesis will investigate the capabilities of LLMs for learning from and reasoning about tabular data, with a particular focus on in-context learning and its potential applications in data analysis and prediction.
 
 </p>
 
