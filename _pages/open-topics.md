@@ -9,7 +9,7 @@ I am currently offering several topics for MSc theses and internships - all in t
 
 <div class="topic-box">
 
-<h2>In-context Learning for Tabular Data Using Tabular Foundation Models</h2>
+<h2>In-context Learning for Health Prediction Using Tabular Foundation Models</h2>
 
 <p class="topic-type">
 <strong>MSc Thesis / Internship</strong>
