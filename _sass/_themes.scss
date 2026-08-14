@@ -9,6 +9,8 @@
 /* Used to set the size for <em> */
 $doc-font-size              : 12;
 
+
+
 /* Paragraph indention */
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
@@ -30,14 +32,15 @@ $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
 /* Type scale */
-$type-size-1                : 2.441em;  // ~30.056px
-$type-size-2                : 1.953em;  // ~21.248px
-$type-size-3                : 1.563em;  // ~15.008px
-$type-size-4                : 1.25em;   // ~20px
-$type-size-5                : 1em;      // ~16px
-$type-size-6                : 0.75em;   // ~12px
-$type-size-7                : 0.6875em; // ~11px
-$type-size-8                : 0.625em;  // ~10px
+$type-size-1                : 2.2em;
+$type-size-2                : 1.7em;
+$type-size-3                : 1.4em;
+$type-size-4                : 1.15em;
+$type-size-5                : 0.90em;
+$type-size-6                : 0.75em;
+$type-size-7                : 0.6875em;
+$type-size-8                : 0.625em;
+
 
 $global-font-family         : $sans-serif;
 $header-font-family         : $sans-serif;
