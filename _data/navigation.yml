@@ -18,7 +18,7 @@ main:
   - title: "Thesis topic"
     url: /teaching/    
 
-    - title: "talks"
+  - title: "talks"
     url: /talks/   
     
  # - title: "Portfolio"
