@@ -4,24 +4,23 @@ permalink: /open-topics/
 author_profile: true
 ---
 
-<div class="topics-intro">
-I am currently offering several topics for <strong>MSc theses and internships</strong>
+I am currently offering several topics for **MSc theses and internships**
 in the areas of machine learning, data science, sports, health, and digital technologies.
-</div>
 
-<div class="research-topic">
+<div class="topic-box">
 
-<div class="topic-header">
-  <span class="topic-label">MSc Thesis / Internship</span>
-  <h2>In-context Learning for Tabular Data Using Tabular Foundation Models</h2>
-</div>
+<h2>In-context Learning for Tabular Data Using Tabular Foundation Models</h2>
 
-<div class="topic-tags">
-  <span>Machine Learning</span>
-  <span>Data Science</span>
-  <span>Foundation Models</span>
-  <span>Tabular Data</span>
-</div>
+<p class="topic-type">
+<strong>MSc Thesis / Internship</strong>
+</p>
+
+<p>
+<strong>Areas:</strong>
+Machine Learning · Data Science · Foundation Models · Tabular Data
+</p>
+
+<hr>
 
 <h3>Overview</h3>
 
@@ -49,13 +48,9 @@ can perform prediction and classification tasks using in-context learning.
 
 <h3>Possible Methods</h3>
 
-<div class="method-tags">
-  <span>Tabular Foundation Models</span>
-  <span>In-context Learning</span>
-  <span>Prompt Engineering</span>
-  <span>Zero-shot Learning</span>
-  <span>Few-shot Learning</span>
-  <span>Benchmarking</span>
-</div>
+<p>
+Machine learning · Tabular foundation models · In-context learning ·
+Prompt engineering · Zero-shot learning · Few-shot learning · Benchmarking
+</p>
 
 </div>
