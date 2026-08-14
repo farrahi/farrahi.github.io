@@ -4,6 +4,7 @@ permalink: /open-topics/
 author_profile: true
 ---
 
+
 I am currently offering several topics for **MSc theses and internships**
 in the areas of machine learning, data science, sports, health, and digital technologies.
 
