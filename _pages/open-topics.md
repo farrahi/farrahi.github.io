@@ -145,3 +145,62 @@ The study will provide insights into the potential of pre-trained models to redu
 </p>
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="topic-box">
+
+<h2>Daily step counts and health outcomes</h2>
+
+Suitable for MSc Thesis / Internship
+
+<p>
+<strong>Areas:</strong>
+Step counts · Accelerometers · Data Science · Health · Physical activity · 
+</p>
+
+
+
+<h3>Summary</h3>
+
+<p>
+
+Physical activity has numerous health benefits, but promoting sufficient physical activity remains a challenge. Step count is a simple  measure of daily physical activity and provides an easy-to-understand way for people to monitor their activity levels.
+Earlier,  the goal of 10,000 steps per day eas widely promoted as a target for healthy living, despite limited scientific evidence supporting it as a specific threshold for health. More recent research suggests that health benefits can be observed at substantially lower step counts and that the association between daily steps and health is generally non-linear. Although taking more steps is generally associated with greater health benefits, the additional benefit tends to diminish at higher levels of activity. Still, more research is needed to understand how step count relates to different health outcomes and to identify whether there are meaningful step-count ranges that may be most beneficial for different populations and health conditions. Here, we will examine how daily step counts are associated with different health outcomes while accounting for overall physical activity levels. The health outcomes of interest will primarily include cardiometabolic risk markers or mental health outcomes.
+
+
+
+</p>
+
+
+<h4>Relevant Literature</h4>
+<ul>
+  <li><a href="https://www.ahajournals.org/doi/10.1161/CIRCOUTCOMES.124.011873">https://www.ahajournals.org/doi/10.1161/CIRCOUTCOMES.124.011873</a></li>
+  <li><a href="https://pubmed.ncbi.nlm.nih.gov/39589008/">https://pubmed.ncbi.nlm.nih.gov/39589008/</a></li>
+</ul>
+
+<p>
+</p>
+
+</div>
+
