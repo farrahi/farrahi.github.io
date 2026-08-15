@@ -95,3 +95,53 @@ we will investigate (and compare) how effectively in-context learning with emerg
 </p>
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="topic-box">
+
+<h2>Activity recognition using foundation models</h2>
+
+Suitable for MSc Thesis / Internship
+
+<p>
+<strong>Areas:</strong>
+Activity recognition · Accelerometers · Machine Learning · Data Science · Foundation Models · foundation models · In-context learning 
+</p>
+
+
+
+<h3>Summary</h3>
+
+<p>
+
+In epidemiological and observational research, monitoring physical activity behavior using wearable devices has become increasingly common, providing an objective alternative to traditional self-reported measures. Among wearable devices, accelerometers are one of the most widely used sensors for monitoring human movement. Accelerometer signals (i.e., motion signals) can be used to characterize different types of physical activity and quantify activity intensity, duration, and patterns under free-living conditions.
+To date, hundreds of algorithms and methods have been proposed, developed, and validated to transform accelerometer signals into meaningful measures of physical activity, including activity types, intensity, duration, and energy expenditure. These approaches range from traditional signal-processing and rule-based methods to modern machine learning and deep learning techniques. Although many studies have demonstrated that machine learning and deep learning models can outperform simpler traditional approaches in activity recognition and classification tasks, traditional methods remain widely used in applied health and epidemiological research. One reason may be concerns about the robustness and generalizability of machine learning models, particularly when they are developed and evaluated using small- to moderate-sized datasets. Models trained on limited and potentially heterogeneous samples may not generalize well to new populations, devices, or free-living conditions. Another potential reason is that health researchers may have limited familiarity with machine learning methods, including model development, training, validation, and interpretation.
+We will investigate whether pre-trained foundation models can be used for wearable accelerometer-based physical activity classification and whether they perform as well as or better than models trained on small datasets.
+The study will provide insights into the potential of pre-trained models to reduce the need for task-specific model development and improve the accessibility and generalizability of machine learning approaches in wearable-based physical activity research.
+ 
+</p>
+
+
+<h4>Relevant Literature</h4>
+<ul>
+  <li><a href="https://www.sciencedirect.com/science/article/pii/S1386505623000217">https://www.sciencedirect.com/science/article/pii/S1386505623000217</a></li>
+  <li><a href="https://doi.org/10.1123/jmpb.2025-0066">https://doi.org/10.1123/jmpb.2025-0066</a></li>
+  <li><a href="https://iopscience.iop.org/article/10.1088/1361-6579/ac89c9/meta">https://iopscience.iop.org/article/10.1088/1361-6579/ac89c9/meta</a></li>
+
+</ul>
+
+<p>
+</p>
+
+</div>
