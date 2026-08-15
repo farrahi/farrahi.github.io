@@ -110,7 +110,7 @@ we will investigate (and compare) how effectively in-context learning with emerg
 
 <div class="topic-box">
 
-<h2>Activity recognition using foundation models</h2>
+<h2>Activity recognition from wearable accelerometers using pre-trained foundation models</h2>
 
 Suitable for MSc Thesis / Internship
 
