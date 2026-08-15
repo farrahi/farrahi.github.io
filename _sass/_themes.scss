@@ -1,50 +1,85 @@
 /* ==========================================================================
-   SHARED THEME SETTINGS
+   AI / DATA SCIENCE THEME
    ========================================================================== */
 
 /* ==========================================================================
    TYPOGRAPHY
    ========================================================================== */
 
-/* Used to set the size for <em> */
-$doc-font-size              : 16;
+/* Base document font size */
+$doc-font-size              : 15;
 
-/* Paragraph indention */
-$paragraph-indent           : false; // true, false (default)
+/* Paragraph indentation */
+$paragraph-indent           : false;
 $indent-var                 : 1.3em;
 
-/* System typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
-/* Sans serif typefaces */
+/* --------------------------------------------------------------------------
+   System typefaces
+   -------------------------------------------------------------------------- */
+
+/* Clean, modern UI / AI research style */
+$sans-serif                 : -apple-system, BlinkMacSystemFont,
+                              "Inter", "SF Pro Display", "SF Pro Text",
+                              "Segoe UI", "Roboto", "Helvetica Neue",
+                              Arial, sans-serif;
+
+/* Technical / computational typography */
+$monospace                  : "SFMono-Regular", "Roboto Mono",
+                              "IBM Plex Mono", "Cascadia Code",
+                              "Liberation Mono", Monaco, Consolas,
+                              "Courier New", monospace;
+
+/* Legacy serif fallbacks */
+$serif                      : Georgia, "Times New Roman", serif;
+
+
+/* --------------------------------------------------------------------------
+   Sans serif typefaces
+   -------------------------------------------------------------------------- */
+
 $sans-serif-narrow          : $sans-serif;
-$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
+$helvetica                  : "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-/* Serif typefaces */
+
+/* --------------------------------------------------------------------------
+   Serif typefaces
+   -------------------------------------------------------------------------- */
+
 $georgia                    : Georgia, serif;
-$times                      : Times, serif;
+$times                      : "Times New Roman", Times, serif;
 $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-/* Type scale */
-$type-size-1                : 2.441em;  // ~39.056px
-$type-size-2                : 1.953em;  // ~31.248px
-$type-size-3                : 1.563em;  // ~25.008px
-$type-size-4                : 1.25em;   // ~20px
-$type-size-5                : 1em;      // ~16px
-$type-size-6                : 0.75em;   // ~12px
-$type-size-7                : 0.6875em; // ~11px
-$type-size-8                : 0.625em;  // ~10px
+
+/* --------------------------------------------------------------------------
+   Type scale
+   -------------------------------------------------------------------------- */
+
+/* Compact, modern academic / technical scale */
+
+$type-size-1                : 2.25em;    // ~34px
+$type-size-2                : 1.75em;    // ~26px
+$type-size-3                : 1.40em;    // ~21px
+$type-size-4                : 1.15em;    // ~17px
+$type-size-5                : 0.95em;    // ~14px
+$type-size-6                : 0.82em;    // ~12px
+$type-size-7                : 0.75em;    // ~11px
+$type-size-8                : 0.68em;    // ~10px
+
+
+/* --------------------------------------------------------------------------
+   Global typography
+   -------------------------------------------------------------------------- */
 
 $global-font-family         : $sans-serif;
 $header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
+$caption-font-family        : $sans-serif;
+
 
 /* ==========================================================================
-   Breakpoints
+   BREAKPOINTS
    ========================================================================== */
 
 @include breakpoint-set("to ems", true);
@@ -55,8 +90,9 @@ $medium-wide                : 900px !default;
 $large                      : 925px !default;
 $x-large                    : 1280px !default;
 
+
 /* ==========================================================================
-   Grid
+   GRID
    ========================================================================== */
 
 $right-sidebar-width-narrow : auto;
@@ -74,24 +110,80 @@ $susy: (
     global-box-sizing: border-box,
 );
 
+
 /* ==========================================================================
-   BRAND COLORS
+   AI / DATA SCIENCE COLOR SYSTEM
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Core palette
+   -------------------------------------------------------------------------- */
+
+/* Deep computational navy */
+$ai-navy                    : #0f172a;
+
+/* Dark slate */
+$ai-slate                   : #1e293b;
+
+/* Main text */
+$ai-text                    : #334155;
+
+/* Secondary text */
+$ai-muted                   : #64748b;
+
+/* Light interface background */
+$ai-background              : #f8fafc;
+
+/* Borders / separators */
+$ai-border                  : #e2e8f0;
+
+/* Primary AI blue */
+$ai-blue                    : #2563eb;
+
+/* Secondary cyan */
+$ai-cyan                    : #0891b2;
+
+/* Accent violet */
+$ai-violet                  : #7c3aed;
+
+/* Subtle green for data / health */
+$ai-green                   : #059669;
+
+
+/* --------------------------------------------------------------------------
+   Functional colors
+   -------------------------------------------------------------------------- */
+
+$primary-color              : $ai-blue;
+$secondary-color            : $ai-cyan;
+
+$text-color                 : $ai-text;
+$muted-text-color           : $ai-muted;
+
+$background-color           : $ai-background;
+$border-color               : $ai-border;
+
+
+/* ==========================================================================
+   SOCIAL / BRAND COLORS
    ========================================================================== */
 
 $behance-color              : #1769FF;
 $bluesky-color              : #1184fe;
-$dribbble-color             : #ea4c89;
+$dribbble-color              : #ea4c89;
 $facebook-color             : #3b5998;
 $flickr-color               : #ff0084;
 $foursquare-color           : #0072b1;
 $google-plus-color          : #dd4b39;
 $instagram-color            : #517fa4;
+
 $kaggle-color               : #20c0ff;
+
 $lastfm-color               : #d51007;
 $linkedin-color             : #007bb6;
 $mastodon-color             : #6364ff;
 $orcid-color                : #a6ce39;
-$pinterest-color            : #cb2027;
+$pinterest-color             : #cb2027;
 $rss-color                  : #fa9b39;
 $soundcloud-color           : #ff3300;
 $stackoverflow-color        : #fe7a15;
@@ -101,4 +193,47 @@ $vimeo-color                : #1ab7ea;
 $vine-color                 : #00bf8f;
 $youtube-color              : #bb0000;
 $xing-color                 : #006567;
-   
+
+
+/* ==========================================================================
+   COMPUTATIONAL / AI UI TOKENS
+   ========================================================================== */
+
+/* Technical labels, metadata, code-like elements */
+$code-font-family           : $monospace;
+
+/* Small UI text */
+$ui-font-size               : 0.78em;
+
+/* Compact technical spacing */
+$ai-radius                  : 6px;
+$ai-radius-small            : 4px;
+
+/* Subtle interface shadow */
+$ai-shadow                  : 0 1px 3px rgba(15, 23, 42, 0.06);
+
+
+/* ==========================================================================
+   DESIGN DIRECTION
+   ========================================================================== */
+
+/*
+   Visual language:
+
+   - clean
+   - computational
+   - minimal
+   - AI / machine-learning oriented
+   - modern academic
+   - restrained use of color
+   - compact typography
+   - monospace for technical metadata
+   - blue/cyan accents rather than traditional academic colors
+
+   Avoid:
+   - large serif headings
+   - oversized typography
+   - heavy gradients
+   - excessive rounded cards
+   - decorative colors
+*/
